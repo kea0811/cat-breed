@@ -1,0 +1,38 @@
+.cardWrapper {
+  border-radius: 0.25rem;
+  border: 1px solid rgba(0, 0, 0, 0.295);
+  padding: 1rem 0.75rem;
+}
+
+.cardWrapper .imageWrapper {
+  padding: 1.25rem 0;
+}
+
+.cardWrapper .imageWrapper img {
+  width: 100%;
+  height: 15rem;
+  object-fit: contain;
+}
+
+.infoWrapper {
+  display: flex;
+  flex-direction: column;
+  grid-gap: 0.5rem;
+  gap: 0.5rem;
+}
+
+.nameWrapper {
+  display: flex;
+  justify-content: center;
+}
+
+.weightWrapper,
+.lifeSpanWrapper {
+  display: flex;
+  flex-direction: row;
+  justify-content: space-between;
+}
+
+.weightValueWrapper {
+  text-align: right;
+}

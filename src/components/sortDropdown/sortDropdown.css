@@ -1,0 +1,38 @@
+.sortDropdownWrapper {
+  position: relative;
+}
+
+.selectedWrapper {
+  cursor: pointer;
+  border-radius: 0.15rem;
+  border: 1px solid rgba(0, 0, 0, 0.212);
+  padding: 0.75rem 2rem;
+  display: flex;
+  flex-direction: row;
+  grid-gap: 1rem;
+  gap: 1rem;
+  align-items: center;
+}
+
+.optionWrapper {
+  position: absolute;
+  display: flex;
+  flex-direction: column;
+  border: 1px solid rgba(0, 0, 0, 0.212);
+  top: 4rem;
+  background-color: white;
+}
+
+.optionWrapper .option {
+  cursor: pointer;
+  padding: 0.75rem 2rem;
+}
+
+.optionWrapper .option:hover {
+  background-color: #2186c8;
+  color: white;
+}
+
+.iconWrapper {
+  position: relative; 
+}

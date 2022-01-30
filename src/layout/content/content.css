@@ -1,0 +1,33 @@
+.contentWrapper {
+  height: 100%;
+}
+
+.selectionWrapper {
+  display: flex;
+  flex-direction: row;
+  justify-content: space-between;
+}
+
+.resultWrapper {
+  padding: 2rem 0;
+  display: grid;
+  grid-template-columns: repeat(4, minmax(0, 1fr));
+  grid-gap: 1rem;
+  gap: 1rem;
+}
+
+.loadingWrapper {
+  padding: 2rem 0;
+  text-align: center;
+  font-size: 1.25rem;
+}
+
+.loadingWrapper.hidden {
+  display: none;
+}
+
+.bottomResultWrapper {
+  padding: 2rem 0;
+  text-align: center;
+  font-size: 1.25rem;
+}
